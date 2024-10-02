@@ -5,11 +5,12 @@ import SocialLogo from '../assets/Images/social_icons.png'
 const Footer = () => {
     return (
         <>
-            <footer className='px-[120px] py-[40px] bg-[#071629] flex items-center justify-between font-SourceReg'>
-                <div className=''>
+            <footer className='px-[120px] py-2 bg-[#071629] font-SourceReg'>
+                <div className=' flex items-center justify-between py-[35px]'>
                     <img src={Logo} alt="" />
+                    <img src={SocialLogo} alt="" />
                 </div>
-                <img src={SocialLogo} alt="" />
+                <p className='text-center text-sm font-SourceReg text-white/20'>©smileschool 2020</p>
             </footer>
         </>
     )

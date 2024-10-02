@@ -4,7 +4,7 @@ const Section5 = () => {
     return (
         <>
             <div className='px-[120px] py-[60px] text-[#071629]'>
-                <h1 className='font-SourceReg mb-[40px] text-center text-3xl'>F.A.Q</h1>
+                <h1 className='font-SourceReg mb-[40px] text-center text-3xl'>F.A.Q.</h1>
                 <div className='flex mb-[40px] justify-around items-center'>
                     <div className='flex flex-col w-[350px] space-y-8'>
                         <h1 className='font-semibold font-SourceReg'>How does this work?</h1>
